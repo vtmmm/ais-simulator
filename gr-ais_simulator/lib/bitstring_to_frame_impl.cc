@@ -438,7 +438,7 @@ namespace gr
 
                 // output
                 memcpy(out, byte_frame, len_frame_real / 8);
-                noutput_items = len_frame_real;
+                noutput_items = len_frame_real / 8;
             }
             else
             {
